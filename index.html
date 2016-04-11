@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8" />
+        <title> Troço do Flappy Bird </title>
+        <script type="text/javascript" src="phaser.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"> </script>
+        <script type="text/javascript" src="main.js"></script>
+        
+        
+        
+       
+    </head>
+    
+<body>
+
+    <h1> Eleição 2017 </h1>
+    <p> Marina/Edu Jorge-Rede e PV </p>
+    <div> Lula/Haddad/Wagner (se o Lula for preso)-PT </div>
+    <h2> Moro/Japonês da PF - Novo </h2>
+    <button> Click here</button>
+    <input/> 
+
+</body>
+    
+    <script>
+        nome = 'Bolsonaro/Feliciano- PSbabaCa';
+        paragrafo = 'Temer/Cunha/Pezão/Calheiros/Paes (dependendo de quem for preso, sofrer impeachment ou morrer) - PMDB <br> <br> Gomes Brothers - PDT <br> <br> Aécio/Alckmin/Serra/Aloysio (dependendo de quem se matar antes) -PSDB <br> <br> Fantasma do Edu Campos/Fantasma do Plínio - PFT (Partido dos Fantasmas Trabalhadores) ' ;
+        a = 'Olavo/Dollynho - PAP (Partido Anti-Pepsi) <br> <br> Luciana Genro/Willys/Pai da Luciana Genro - PSOL';
+        b = 'Cristovam/Algum carinha ai - PPS';
+        
+        $('button').click(function() {
+            aquela_coisa_la(  $('input').val()    );
+        });
+            
+        function aquela_coisa_la(nome) {
+            $('h1').html(nome);
+            $('p').html(paragrafo);
+            $('div').html(a);
+            $('h2').html(b);
+        }
+
+    </script>
+
+</html>
